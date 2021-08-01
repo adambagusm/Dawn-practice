@@ -1,0 +1,36 @@
+.padding-2{
+    padding:2em 0 2em 0;
+}
+
+.container{
+
+    max-width:1440px;
+    width:95%;
+    margin:auto;
+}
+.wrap-product-grid{
+    height:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+@media only screen and (min-width: 1280px){
+    .wrap-product-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+    }
+}
+.block{
+    
+}
+.display-img{
+    width:95%;
+    height:auto;
+    background-image: cover;
+}
+.title{}
+.variant{}
+.wrapper-price{}
+.price{}
+.compare-price{}
+
